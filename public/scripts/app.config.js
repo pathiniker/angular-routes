@@ -1,9 +1,15 @@
 angular.module('routeApp')
        .config(function($routeProvider, $locationProvider) {
          $routeProvider.when('/home', {
-           templateUrl: 'views/home.html'
-         }).when('/about', {
-           templateUrl: 'views/about.html'
+           templateUrl: 'views/home.html',
+         }).when('/kirby', {
+           templateUrl: 'views/kirby.html',
+         }).when('/captainfalcon', {
+           templateUrl: 'views/captainfalcon.html',
+         }).when('/sheik', {
+           templateUrl: 'views/sheik.html',
+         }).otherwise({
+           redirectTo: '/home',
          });
 
          // lets us use normal looking links

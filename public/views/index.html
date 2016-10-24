@@ -2,7 +2,7 @@
 <html ng-app="routeApp">
   <head>
     <meta charset="utf-8">
-    <title>Practicing Client-side Routing</title>
+    <title>Fictional Characters</title>
 
     <script src="vendors/angular.min.js" charset="utf-8"></script>
     <script src="vendors/angular-route.min.js" charset="utf-8"></script>
@@ -10,15 +10,41 @@
     <script src="scripts/app.module.js" charset="utf-8"></script>
     <script src="scripts/app.config.js" charset="utf-8"></script>
 
+    <!-- <script src="scripts/main.controller.js" charset="utf-8"></script>
+    <script src="scripts/giantbomb.service.js" charset="utf-8"></script> -->
+
+    <link rel="stylesheet" href="styles/style.css" />
+
     <base href="/" />
   </head>
   <body>
+  <!-- <body ng-app="gameApp" ng-controller="MainController as main"> -->
 
-    <a href="/home">Home</a>
-    <a href="/about">About</a>
+<header>
+<h1>
+<img src="http://i.imgur.com/kt3Y8dO.png"/>
+</h1>
+    <nav><ul>
+  <li><a href="/home">Home</a></li>
+  <!-- <li><a href="/kirby" ng-click="main.getCharacter()">Kirby</a></li>
+  <li><a href="/captainfalcon" ng-click="main.getCharacter()">Captain Falcon</a></li>
+  <li><a href="/sheik" ng-click="main.getCharacter()">Sheik</a></li> -->
+  <li><a href="/kirby">Kirby</a></li>
+  <li><a href="/captainfalcon">Captain Falcon</a></li>
+  <li><a href="/sheik">Sheik</a></li>
+    </ul></nav>
+</header>
+
+
+
 
     <ng-view>
 
     </ng-view>
+
+
+    <footer>
+      Pat Hiniker 2016
+    </footer>
   </body>
 </html>

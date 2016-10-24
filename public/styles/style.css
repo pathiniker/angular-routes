@@ -1,0 +1,117 @@
+body {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  margin-bottom: 50px
+
+}
+h1 {
+  padding-left: 25px;
+  padding-top: 25px;
+}
+h1 img {
+  height: 140px;
+  display: inline;
+  margin-bottom: -50px;
+}
+h2 {
+  text-align: center;
+}
+header {
+  background: linear-gradient(skyblue, white);
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  border: none;
+  margin-right: 10px;
+  padding: 5px 10px 0 10px;
+  border-radius: 10px 10px 0 0;
+  background: linear-gradient(grey, white);
+}
+nav li a {
+  text-decoration: none;
+}
+table {
+  text-align: center;
+  padding-bottom: 100px;
+}
+th {
+  width: 150px;
+}
+.profile img {
+  border-radius: 50%;
+  border-left: 15px solid skyblue;
+}
+#kirby {
+  background-image: url('http://www.ssbwiki.com/images/0/0e/KirbySymbol.svg');
+  background-size: cover;
+}
+#falcon {
+  background-image: url('http://www.ssbwiki.com/images/2/2f/FZeroSymbol.svg');
+  background-size: cover;
+}
+#sheik {
+  background-image: url('http://www.ssbwiki.com/images/7/74/ZeldaSymbol.svg');
+  background-size: cover;
+}
+.character {
+  height: 300px;
+  max-width: 300px;
+  float: left;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/SmashBall.svg/2000px-SmashBall.svg.png');
+  background-size: contain;
+
+}
+
+.profile table {
+  float: left;
+}
+.moveset {
+  float: right;
+  margin-right: 100px;
+
+}
+
+
+footer {
+  position: fixed;
+  background: linear-gradient(white, red);
+  height: 50px;
+  margin-bottom: 0;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  text-align: center;
+  color: grey;
+  font-size: 10px;
+}
+
+#wrap {
+  border-radius: 15px;
+  border: 5px solid black;
+}
+
+h3 {
+  text-align: center;
+  font-size: 50px;
+}
+.info {
+  margin-left: 100px;
+}
+
+#left {
+  width: 33%;
+  float: left;
+}
+#center {
+  width: 33%;
+  float: left;
+}
+#right {
+  width: 33%;
+  float: right;
+}
